@@ -3,7 +3,7 @@
 ## Presentado por:
 
 - **María Fernanda Londoño Sabogal**
-- **Jerik David Hincapié Bedoya**
+- **Jerik David Hincapie Bedoya**
 
 ## Presentado a:
 
