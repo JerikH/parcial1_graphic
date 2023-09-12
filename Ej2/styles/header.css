@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Cambia la fuente por defecto a Arial */
+}
+
+.header-container {
+    display: flex;
+    background-color: #145da0;
+    color: #ffffff;
+    padding: 20px 0; /* Agrega un margen en la parte superior e inferior */
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 100px);
+}
+
+.vertical-container .horizontal-container .title{
+    cursor: pointer;
+}
+
+.horizontal-container, .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Georgia', serif; /* Cambia la fuente del título a Georgia */
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right button {
+    margin-left: 20px; /* Aumenta la distancia entre los botones y el avatar */
+    padding: 15px; /* Aumenta el tamaño de los botones */
+    border: none;
+    border-radius: 5px; /* Redondea los botones */
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+    font-size: 1.1em; /* Aumenta el tamaño de letra de los botones */
+}
+
+.header-right button:hover {
+    background-color: #555;
+}
+
+.avatar img {
+    width: 50px; /* Aumenta el tamaño del avatar */
+    height: 50px;
+    margin-left: 20px; /* Aumenta la distancia entre los botones y el avatar */
+    margin-right: 20px; /* Aumenta la distancia entre el avatar y el borde de la pantalla */
+}
+
+.menu-content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio de manera uniforme entre los elementos */
+    align-items: center;
+    width: 60%; /* Aumenta el tamaño del contenedor para dejar más espacio para la barra de búsqueda */
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: center; /* Centra los botones en el contenedor */
+    translate: 165px;
+}
+
+.menu-search {
+    width: 15%; /* Define un tamaño fijo para la barra de búsqueda */
+}
+
+.menu button, .menu input[type="text"] {
+    padding: 15px; /* Aumenta el tamaño de los botones y el campo de texto */
+    border: none;
+    border-radius: 5px; /* Redondea los botones y el campo de texto */
+    font-size: 1.1em; /* Aumenta el tamaño de letra de los botones y el campo de texto */
+    margin: 0 10px; /* Agrega un margen a los lados de cada elemento */
+}
+
+
+.menu button {
+    color: white;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #555;
+}

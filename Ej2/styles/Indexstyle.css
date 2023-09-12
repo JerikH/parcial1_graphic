@@ -1,0 +1,11 @@
+.advertising {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Estilos de la sección de información general */
+.information {
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}

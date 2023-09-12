@@ -1,0 +1,68 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.advertising-left {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.advertising-left video {
+    object-fit: cover;
+}
+
+.registration-box {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-box form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.registration-box label, .registration-box input, .registration-box button {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.registration-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registration-box button {
+    background-color: #145da0;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.registration-box button:hover {
+    background-color: #11427a;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+

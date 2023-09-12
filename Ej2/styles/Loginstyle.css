@@ -1,0 +1,78 @@
+/* Estilos de la sección de publicidad izquierda */
+.advertising-left {
+    float: left;
+    width: 15%; /* Cambia este valor según tus necesidades */
+    height: auto; /* Cambiado de 100vh a auto */
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.advertising-left video {
+    width: 100%;
+    height: auto; /* Cambiado de 100% a auto */
+    object-fit: cover; /* Añadido para mantener la proporción del video */
+}
+
+/* Estilos del cuadro de inicio de sesión y registro */
+.login-box {
+    float: left;
+    width: 75%; /* Cambia este valor según tus necesidades */
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; /* Para posicionar los elementos hijos de manera absoluta */
+    
+}
+
+.signup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Añadido para más espacio debajo del título */
+}
+
+.login-box form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-box label, .login-box input, .login-box button, .login-box a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-box button {
+    background-color: #145da0;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; /* Añadido para suavizar los bordes del botón */
+    transition: background-color 0.3s ease; /* Añadido para una transición suave al pasar el mouse */
+}
+
+.login-box button:hover {
+    background-color: #0f4a8c; /* Añadido para cambiar el color del botón al pasar el mouse */
+}
+
+.login-box a {
+    text-align: center;
+    color: #145da0; /* Añadido para cambiar el color del enlace */
+}
+
+.login-box p {
+    text-align: center;
+}
